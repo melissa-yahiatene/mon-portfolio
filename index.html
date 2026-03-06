@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melissa Yahiatene</title>
+    <link rel="shortcut icon" href="images/YM.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <span class="logo"><a href="#">PORTFOLIO</a></span>
+            <div class="links">
+                <a href="#profil">Profil</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="intro">
+        <video autoplay muted loop playsinline id="hero-video">
+            <source src="images/backgroud.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1 data-aos="zoom-in">Melissa YAHIATENE</h1>
+            <p class="subtitle" data-aos="fade-up" data-aos-delay="200">Etudiante en Informatique
+            </p>
+            <div class="scroll-indicator"><span></span></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="profil" class="container">
+            <div class="profil-layout" data-aos="fade-up">
+                <div class="profil-image-container">
+                    <div class="image-wrapper">
+                        <img src="images/pp.png" alt="Melissa">
+                    </div>
+                </div>
+                <div class="profil-text-content">
+                    <h2 class="section-title">À Propos de Moi</h2>
+                    <div class="uni-info" data-aos="fade-left" data-aos-delay="100">
+                        <i class="fa-solid fa-university"></i>
+                        <span>Étudie à l'<strong>Université Paris Cité</strong></span>
+                    </div>
+                    <p class="bio">
+                        Actuellement en <strong>Licence 3 d'Informatique</strong>, je forge mon expertise avec une
+                        ambition claire :
+                        devenir une actrice clé de la Cybersécurité et de la Résilience des Infrastructures. Mon
+                        approche de la sécurité est globale : elle ne s'arrête pas au code, elle englobe l'intégralité
+                        de l'écosystème numérique, du Cloud aux Réseaux critiques.
+                        Mon parcours m'a permis d'explorer l'informatique de la couche matérielle jusqu'à l'applicatif.
+                        Cette vision "Low-Level to Cloud" me permet de comprendre non seulement comment un système
+                        fonctionne, mais surtout comment il peut être compromis. Maîtriser l'architecture des machines
+                        et la gestion mémoire (C/Assembleur) me donne un avantage stratégique pour détecter les failles
+                        là où d'autres ne voient que des abstractions.
+                    </p>
+                    <ul class="bio">Mes piliers techniques :
+                        <li>Infrastructure & Cloud : Administration de systèmes UNIX/Linux et gestion d'environnements
+                            virtualisés. Je m'intéresse particulièrement à la sécurisation des architectures Cloud et au
+                            durcissement (hardening) des systèmes.</li>
+                        <li>Réseaux & Flux : Utilisation de la théorie des graphes pour optimiser et sécuriser les flux
+                            de
+                            données, garantissant l'intégrité des échanges au sein d'infrastructures complexes.</li>
+                        <li>Développement Sécurisé : Conception d'architectures robustes (Java/MVP, Python) intégrant
+                            les
+                            principes de Security by Design pour prévenir les vulnérabilités dès la première ligne de
+                            code.</li>
+                    </ul>
+
+                    <p class="bio">Adepte de la défense active et passionnée par l'analyse des menaces, je cherche
+                        désormais à
+                        mettre mon esprit d'analyse et ma rigueur technique au service d'un <strong>Master en
+                            alternance</strong>. Mon
+                        objectif : contribuer activement à la protection et à la pérennité des infrastructures
+                        numériques de demain.
+                    </p>
+
+                    <a href="CV_Melissa_Yahiatene.pdf" class="btn-cv" download>
+                        <i class="fa-solid fa-download"></i> Télécharger mon CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="container">
+            <h2 class="section-title" data-aos="fade-right">Compétences</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="card-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                    <h3>Sécurité & Infrastructures Réseaux</h3>
+                    <p>En apprentissage sur la résilience des systèmes : analyse de vulnérabilités (VAPT), durcissement
+                        d'OS
+                        (Hardening) et sécurisation des flux. Maîtrise des protocoles TCP/IP et de la segmentation
+                        réseau pour prévenir les vecteurs d'attaque.</p>
+                    <div class="tech-tags">
+                        <span>Nmap</span><span>Wireshark</span><span>Kali</span><span>VPN/Firewall</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>Systèmes, Virtualisation & Cloud</h3>
+                    <p>Administration d'environnements UNIX/Linux. Gestion d'infrastructures virtualisées
+                        (VMware, VirtualBox) et automatisation via scripting Bash. Focus sur la haute disponibilité et
+                        la sécurité des architectures distantes.</p>
+                    <div class="tech-tags">
+                        <span>Linux/UNIX</span><span>Bash</span><span>Virtualization</span><span>Cloud Security</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Génie Logiciel & Bas-Niveau</h3>
+                    <p>Conception d'applications robustes avec une approche "Security by Design". Expertise en gestion
+                        mémoire (C/Assembleur) pour éviter les overflows, et développement objet structuré
+                        pour la maintenabilité.</p>
+                    <div class="tech-tags"><span>C / m68k</span><span>Java</span><span>Python</span><span>Security by
+                            Design</span></div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                    <h3>Traitement de Données & Algorithmique</h3>
+                    <p>Modélisation de problématiques complexes via la théorie des graphes. Optimisation
+                        de flux de données et gestion de bases de données relationnelles sécurisées (SQL injection
+                        prevention).</p>
+                    <div class="tech-tags"><span>SQL</span><span>Graph Theory</span><span>Optimization</span><span>Data
+                            Integrity</span></div>
+                </div>
+            </div>
+
+            <div class="tech-stack-pro" data-aos="fade-up">
+                <h3 class="stack-title">Technologies Maîtrisées</h3>
+                <div class="stack-grid">
+                    <div class="stack-category">
+                        <h4><i class="fa-solid fa-terminal"></i> Systèmes & Scripting</h4>
+                        <div class="stack-items">
+                            <div class="item">Debian/Kali</div>
+                            <div class="item">Bash Scripting</div>
+                            <div class="item">C / m68k</div>
+                            <div class="item">PowerShell</div>
+                        </div>
+                    </div>
+                    <div class="stack-category">
+                        <h4><i class="fa-solid fa-code-branch"></i> Développement & Frameworks</h4>
+                        <div class="stack-items">
+                            <div class="item">Java / JavaFX</div>
+                            <div class="item">Python (Scripting & Data)</div>
+                            <div class="item">JSON / XML</div>
+                            <div class="item">PHP / JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="stack-category">
+                        <h4><i class="fa-solid fa-network-wired"></i> Outils & Réseaux</h4>
+                        <div class="stack-items">
+                            <div class="item">Cisco Packet Tracer</div>
+
+                            <div class="item">Wireshark / Nmap</div>
+                            <div class="item">SVN / GitHub (CI/CD) </div>
+                            <div class="item">Docker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="container">
+            <h2 class="section-title" data-aos="fade-right">Réalisations</h2>
+            <div class="grid">
+
+                <div class="card" data-aos="fade-up">
+                    <div class="card-header">
+                        <i class="fa-solid fa-book-open-reader"></i> <span class="badge">Java / JavaFX</span>
+                    </div>
+                    <h3>MyInk-LDVH</h3>
+                    <p>Logiciel de création de livres interactifs (LDVH) avec graphes interactifs sécurisé : validation d'intégrité de flux, contrôle d'accès par inventaire et distribution isolée (Fat JAR). Expertises : JavaFX/Java, Sécurité des données, Architecture MVP.</p>
+                    <a href="https://github.com/melissa-yahiatene/MyInk-LDVH" class="github-link"><i
+                            class="fa-brands fa-github"></i> Code Source</a>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span class="badge">Algorithmie / POO</span>
+                    </div>
+                    <h3>LeanGrid</h3>
+                    <p>Moteur de simulation et d’optimisation de réseaux électriques intelligents. Ce projet modélise la
+                        répartition de charge entre générateurs et consommateurs, avec un focus majeur sur la continuité
+                        de service et l'intégrité des données système. Optimisation avec un algorithme itératif complexe
+                        ("Mouvements en chaîne") visant à minimiser le coût.</p>
+                    <a href="https://github.com/melissa-yahiatene/LeanGrid-Optimization" class="github-link"><i
+                            class="fa-brands fa-github"></i> Code Source</a>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <i class="fa-solid fa-route"></i>
+                        <span class="badge">Simulation</span>
+                    </div>
+                    <h3>WayX-Pathfinding</h3>
+                    <p>Plateforme de simulation et de visualisation d'algorithmes de recherche de chemin optimal ;
+                        Simulateur de pathfinding (Dijkstra, A*) sur graphes et matrices d'intensités. Focus : Intégrité
+                        des chemins et architecture logicielle.</p>
+                    <a href="https://github.com/melissa-yahiatene/WayX-Pathfinding-Path-Analysis-Optimization"
+                        class="github-link"><i class="fa-brands fa-github"></i> Code Source</a>
+                </div>
+
+                <div class="card" data-aos="fade-up">
+                    <div class="card-header">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span class="badge">Mobile / Mobile-First</span>
+                    </div>
+                    <h3>MatchMe-Application de Matching Iconographique</h3>
+                    <p>Plateforme mobile innovante de mise en relation basée sur la psychologie cognitive. L'application
+                        s'affranchit des standards du "swipe" superficiel en proposant un système de profilage intuitif
+                        fondé sur des stimuli visuels et des choix binaires immersifs.</p>
+                    <a href="#" class="github-link"><i class="fa-brands fa-github"></i> En cours</a>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span class="badge">Assembleur</span>
+                    </div>
+                    <h3>Biblio Bas-Niveau m68k</h3>
+                    <p>
+                    Maîtrise de l'Assembleur m68k : du développement de routines utilitaires (chaînes, arithmétique) à la conception d'un moteur de calcul sécurisé. Focus sur la gestion de la mémoire, la prévention d'overflow et la validation de données (Data Sanitization) au niveau machine.</p>
+                    <a href="https://github.com/melissa-yahiatene/m68k-LowLevel-Library" class="github-link"><i
+                            class="fa-brands fa-github"></i> Code Source</a>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span class="badge">Web UX</span>
+                    </div>
+                    <h3>Throubi Restaurant</h3>
+                    <p>Interface web immersive pour établissement de luxe. Développé avec HTML5, CSS3 et JavaScript. Focus sur l'interactivité JavaScript et la
+                        fluidité responsive. </p>
+                    <a href="https://github.com/melissa-yahiatene/Throubi-Restaurant" class="github-link"><i
+                            class="fa-brands fa-github"></i> Code Source</a>
+                    <a href="https://melissa-yahiatene.github.io/Throubi-Restaurant/" class="github-link"><i
+                            class="fa-solid fa-globe"></i> Voir le site</a>
+                </div>
+
+                <div class="more-projects" data-aos="fade-up">
+                    <p class="git-phrase">Envie d'en voir plus ? Découvrez l'intégralité de mes travaux sur mon GitHub.
+                    </p>
+                    <div class="git-button-container">
+                        <a href="https://github.com/melissa-yahiatene" target="_blank" class="btn-git-footer">
+                            <i class="fa-brands fa-github"></i> Consulter mon Git
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+        </section>
+        <section id="contact" class="container">
+            <h2 class="section-title" data-aos="fade-right">Contact</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form-box" data-aos="fade-right">
+                    <h3>Envoyez-moi un message</h3>
+                    <form action="mailto:meli.yahiatene@gmail.com" method="GET" enctype="text/plain">
+                        <input type="text" name="subject" placeholder="Votre Nom" required>
+                        <input type="email" name="email" placeholder="Votre Email" required>
+                        <textarea name="body" placeholder="Votre Message" rows="5" required></textarea>
+                        <button type="submit">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info" data-aos="fade-left">
+                    <h3>Coordonnées</h3>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Paris, France</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>meli.yahiatene@gmail.com</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/melissa-yahiatene-4833693ab/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/melissa-yahiatene"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Melissa Yahiatene. Built for Performance.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
